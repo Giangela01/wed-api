@@ -5,6 +5,7 @@ class CreateGuestDetails < ActiveRecord::Migration[6.1]
       t.string :lastName
       t.string :email
       t.boolean :plusOne
+      t.boolean :attend
 
       t.timestamps
     end

@@ -12,6 +12,7 @@
         firstName: Faker::Name.first_name,
         lastName: Faker::Name.last_name,
         email: Faker::Internet.email,
-        plusOne: false
+        plusOne: false,
+        attend: false
     )
 end

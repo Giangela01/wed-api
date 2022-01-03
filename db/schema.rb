@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2022_01_03_011807) do
     t.string "lastName"
     t.string "email"
     t.boolean "plusOne"
+    t.boolean "attend"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
